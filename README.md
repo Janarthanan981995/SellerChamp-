@@ -7,6 +7,8 @@ TestNG
 Selenium Webdriver
 Jackson
 
+# ALL The Pre Requisites  are Added #
+ 
 # How to build the project #
 steps
 ~Create a empty folder in your local 
