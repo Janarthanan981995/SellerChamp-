@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="76451" started-at="2023-06-24T14:17:34Z" finished-at="2023-06-24T14:18:50Z">
+    <groups>
+    </groups>
+    <test name="Product validation" duration-ms="76451" started-at="2023-06-24T14:17:34Z" finished-at="2023-06-24T14:18:50Z">
+      <class name="com.sellerchamp.qa.tests.FirstTest">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.sellerchamp.qa.tests.FirstTest@10bdf5e5]" name="startUp" is-config="true" duration-ms="14665" started-at="2023-06-24T14:17:34Z" finished-at="2023-06-24T14:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.sellerchamp.qa.tests.FirstTest@10bdf5e5]" name="login" duration-ms="8936" started-at="2023-06-24T14:17:49Z" finished-at="2023-06-24T14:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="navigateToProducts()[pri:0, instance:com.sellerchamp.qa.tests.FirstTest@10bdf5e5]" name="navigateToProducts" duration-ms="4150" started-at="2023-06-24T14:17:57Z" finished-at="2023-06-24T14:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProducts -->
+        <test-method status="FAIL" signature="downloadCSV()[pri:0, instance:com.sellerchamp.qa.tests.FirstTest@10bdf5e5]" name="downloadCSV" duration-ms="46239" started-at="2023-06-24T14:18:02Z" finished-at="2023-06-24T14:18:48Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.sellerchamp.qa.tests.FirstTest.downloadCSV(FirstTest.java:59)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadCSV -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sellerchamp.qa.tests.FirstTest@10bdf5e5]" name="tearDown" is-config="true" duration-ms="2327" started-at="2023-06-24T14:18:48Z" finished-at="2023-06-24T14:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sellerchamp.qa.tests.FirstTest -->
+    </test> <!-- Product validation -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

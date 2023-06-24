@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="Product validation(failed)">
+    <classes>
+      <class name="com.sellerchamp.qa.tests.FirstTest">
+        <methods>
+          <include name="downloadCSV"/>
+          <include name="tearDown"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.sellerchamp.qa.tests.FirstTest -->
+    </classes>
+  </test> <!-- Product validation(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
